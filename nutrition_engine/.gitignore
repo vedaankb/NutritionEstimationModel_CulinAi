@@ -1,0 +1,47 @@
+# ---- Temporary / clone dirs (not needed to host) ----
+_layer1_repo/
+_layer2_repo/
+_layer3_repo/
+layers/layer1_clone/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+*.egg
+
+# ---- Environment & secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# ---- Test / coverage (not needed to host) ----
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+ruff.toml
+
+# ---- Artifact binaries (supply at deploy: mount volume or CI) ----
+# To commit Layer 2 model for out-of-the-box run: remove the artifacts/layer2 line below
+*.pkl
+artifacts/layer2/*.pkl
+artifacts/layer3/*.pkl
+artifacts/layer3/*.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

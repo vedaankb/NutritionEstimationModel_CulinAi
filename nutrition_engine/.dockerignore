@@ -1,0 +1,34 @@
+# Dependencies and local dev
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+*.pyo
+.pytest_cache
+.coverage
+htmlcov
+*.egg-info
+.eggs
+
+# Git and IDE
+.git
+.gitignore
+.gitmodules
+.cursor
+.idea
+.vscode
+*.md
+!README.md
+
+# Tests and tooling (not needed in image)
+tests
+test_*.py
+*_test.py
+.mypy_cache
+ruff.toml
+pyproject.toml
+
+# Secrets and env (mount at run time)
+.env
+.env.*

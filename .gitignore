@@ -1,0 +1,13 @@
+# Project root: ignore common junk; app .gitignore is in nutrition_engine/
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+.cursor/
+nutrition_engine/_layer1_repo/
+nutrition_engine/_layer2_repo/
+nutrition_engine/_layer3_repo/

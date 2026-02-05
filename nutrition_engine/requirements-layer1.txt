@@ -1,0 +1,8 @@
+# Install these when using real Layer 1 (DB-backed parser + calculator).
+# Also set env: DATABASE_URL (PostgreSQL), SECRET_KEY.
+
+pydantic-settings>=2.0,<3
+sqlalchemy>=2.0,<3
+psycopg2-binary>=2.9
+spacy>=3.7
+python-Levenshtein>=0.25
